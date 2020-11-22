@@ -1,6 +1,6 @@
 <% @posts.each do |post| %>
   <div id = 'post-<%= post.id %>'>
-  <%= image_tag post.avatar.url(:medium) %>
-  <%= post.message %>
+  <%= image_tag post.avatar.url(:medium) %><br>
+  <%= post.message %><br>
 <%  end %>
 
