@@ -1,0 +1,7 @@
+<%= form_for @post do |form| %>
+  <%= form.label 'Picture Upload' %>
+  <%= form.file_field :avatar %>
+  <%= form.label :message %>
+  <%= form.text_area :message %>
+  <%= form.submit %>
+<% end %>
